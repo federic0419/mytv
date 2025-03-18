@@ -33,36 +33,38 @@ http://tvit.leicaflorianrobert.dev/mediaset/twenty-seven/stream.m3u8
 http://tvit.leicaflorianrobert.dev/la7/la7d/stream.m3u8
 #EXTINF:30 tvg-id="la-5" tvg-name="La 5" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la5-it.png" radio="" group-title="mediaset", La 5
 http://tvit.leicaflorianrobert.dev/mediaset/la-5/stream.m3u8
-#EXTINF:31 tvg-id="real-time" tvg-name="Real Time" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/real-time-it.png" radio="" group-title="discovery", Real Time
+#EXTINF:31 tvg-id="real-time" tvg-name="Real Time" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/real-time-it.png" radio="" group-title="intrattenimento", Real Time
 http://tvit.leicaflorianrobert.dev/discovery/real-time/stream.m3u8
+#EXTINF:33 tvg-id="foodnetwork" tvg-name="foodnetwork" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/food-network-us.png" radio="" group-title="intrattenimento", Food Network
+https://amg16146-wbdi-amg16146c3-samsung-it-1836.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-foodnetwork-samsungit/playlist.m3u8
 #EXTINF:34 tvg-id="cine34" tvg-name="Cine34" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cine34-it.png" radio="" group-title="mediaset", Cine34
 http://tvit.leicaflorianrobert.dev/mediaset/cine34/stream.m3u8
 #EXTINF:35 tvg-id="focus" tvg-name="Focus" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/focus-it.png" radio="" group-title="mediaset", Focus
 http://tvit.leicaflorianrobert.dev/mediaset/focus/stream.m3u8
 #EXTINF:39 tvg-id="top-crime" tvg-name="Top Crime" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/top-crime-it.png" radio="" group-title="mediaset", Top Crime
 http://tvit.leicaflorianrobert.dev/mediaset/top-crime/stream.m3u8
-#EXTINF:40 tvg-id="boing" tvg-name="Boing" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/boing-it.png" radio="" group-title="mediaset", Boing
+#EXTINF:40 tvg-id="boing" tvg-name="Boing" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/boing-it.png" radio="" group-title="cartoni", Boing
 http://tvit.leicaflorianrobert.dev/mediaset/boing/stream.m3u8
-#EXTINF:-1 channel-id="ITBD440000698" tvg-id="K2" tvg-chno="4800" tvg-name="K2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/k2-it.png" group-title="Samsung Channels", K2
+#EXTINF:-1 channel-id="ITBD440000698" tvg-id="K2" tvg-chno="4800" tvg-name="K2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/k2-it.png" group-title="cartoni", K2
 https://jmp2.uk/sam-ITBD440000698.m3u8
-#EXTINF:46 tvg-id="cartoonito" tvg-name="Cartoonito" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cartoonito-it.png" radio="" group-title="mediaset", Cartoonito
+#EXTINF:46 tvg-id="cartoonito" tvg-name="Cartoonito" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cartoonito-it.png" radio="" group-title="cartoni", Cartoonito
 http://tvit.leicaflorianrobert.dev/mediaset/cartoonito/stream.m3u8
-#EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-gulp-db8wx0eccr3u.png" group-title="Canali RAI",Rai Gulp
+#EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-gulp-db8wx0eccr3u.png" group-title="cartoni",Rai Gulp
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-yoyo-hi2h5j83aalt.png" group-title="Canali RAI",Rai Yoyo
+#EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-yoyo-hi2h5j83aalt.png" group-title="cartoni",Rai Yoyo
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1 tvg-id="Super" tvg-chno="47" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-it.png" group-title="Altro",Super!
+#EXTINF:-1 tvg-id="Super" tvg-chno="47" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-it.png" group-title="cartoni",Super!
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=super&group=Bambini
 #EXTINF:49 tvg-id="italia-2" tvg-name="Italia 2" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia2-it.png" radio="" group-title="mediaset", Italia 2
 http://tvit.leicaflorianrobert.dev/mediaset/italia-2/stream.m3u8
 #EXTINF:51 tvg-id="tgcom24" tvg-name="Tgcom24" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/tgcom24-it.png" radio="" group-title="mediaset", Tgcom 24
 http://tvit.leicaflorianrobert.dev/mediaset/tgcom24/stream.m3u8
-#EXTINF:52 tvg-id="dmax" tvg-name="DMAX" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/dmax-es.png" radio="" group-title="discovery", DMAX
+#EXTINF:52 tvg-id="dmax" tvg-name="DMAX" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/dmax-es.png" radio="" group-title="intrattenimento", DMAX
 http://tvit.leicaflorianrobert.dev/discovery/dmax/stream.m3u8
-#EXTINF:-1 channel-id="motor trend" tvg-id="motortrend" tvg-chno="4656" tvg-name="Motortrend" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/motor-trend-us.png" group-title="Samsung Channels", Motortrend
+#EXTINF:-1 channel-id="motor trend" tvg-id="motortrend" tvg-chno="4656" tvg-name="Motortrend" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/motor-trend-us.png" group-title="intrattenimento", Motortrend
 https://jmp2.uk/sam-ITBD4400009JI.m3u8
 #EXTINF:55 tvg-id="mediaset-extra" tvg-name="Mediaset Extra" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/mediaset-extra-it.png" radio="" group-title="mediaset", Mediaset Extra
 http://tvit.leicaflorianrobert.dev/mediaset/mediaset-extra/stream.m3u8
