@@ -66,9 +66,9 @@ http://tvit.leicaflorianrobert.dev/discovery/dmax/stream.m3u8
 https://jmp2.uk/sam-ITBD4400009JI.m3u8
 #EXTINF:55 tvg-id="mediaset-extra" tvg-name="Mediaset Extra" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/mediaset-extra-it.png" radio="" group-title="mediaset", Mediaset Extra
 http://tvit.leicaflorianrobert.dev/mediaset/mediaset-extra/stream.m3u8
-#EXTINF:66 tvg-id="radio-105" tvg-name="Radio 105" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/radio-105-it.png" radio="" group-title="mediaset", Radio 105
+#EXTINF:66 tvg-id="radio-105" tvg-name="Radio 105" tvg-shift="" tvg-logo="https://api.superguidatv.it/v1/channels/460/logo?width=120&theme=dark" radio="" group-title="mediaset", Radio 105
 http://tvit.leicaflorianrobert.dev/mediaset/radio-105/stream.m3u8
-#EXTINF:67 tvg-id="r101" tvg-name="R101" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/r101-it.png" radio="" group-title="mediaset", Radio 101
+#EXTINF:67 tvg-id="r101" tvg-name="R101" tvg-shift="" tvg-logo="https://api.superguidatv.it/v1/channels/463/logo?width=120&theme=dark" radio="" group-title="mediaset", Radio 101
 http://tvit.leicaflorianrobert.dev/mediaset/r101/stream.m3u8
 #EXTINF:99 tvg-id="protv" tvg-name="protv" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/protv-it.png" radio="" group-title="protv", Pro TV
 http://tvit.leicaflorianrobert.dev/protv/protv/stream.m3u8
