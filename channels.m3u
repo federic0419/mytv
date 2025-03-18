@@ -1,13 +1,13 @@
 #EXTM3U
-#EXTINF:1 tvg-id="rai-1" tvg-name="Rai 1" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai1-it.png" radio="" group-title="rai", Rai 1
+#EXTINF:1 tvg-id="rai-1" tvg-name="Rai 1" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-1-it.png" radio="" group-title="rai", Rai 1
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
-#EXTINF:2 tvg-id="rai-2" tvg-name="Rai 2" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai2-it.png" radio="" group-title="rai", Rai 2
+#EXTINF:2 tvg-id="rai-2" tvg-name="Rai 2" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-2-it.png" radio="" group-title="rai", Rai 2
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7&forceUserAgent=raiplayappletv
-#EXTINF:3 tvg-id="rai-3" tvg-name="Rai 3" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai3-it.png" radio="" group-title="rai", Rai 3
+#EXTINF:3 tvg-id="rai-3" tvg-name="Rai 3" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-3-it.png" radio="" group-title="rai", Rai 3
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709&output=7&forceUserAgent=raiplayappletv
-#EXTINF:4 tvg-id="rete-4" tvg-name="Rete 4" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rete4-it.png" radio="" group-title="mediaset", Rete 4
+#EXTINF:4 tvg-id="rete-4" tvg-name="Rete 4" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rete-4-it.png" radio="" group-title="mediaset", Rete 4
 http://tvit.leicaflorianrobert.dev/mediaset/rete-4/stream.m3u8
-#EXTINF:5 tvg-id="canale-5" tvg-name="Canale 5" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/canale5-it.png" radio="" group-title="mediaset", Canale 5
+#EXTINF:5 tvg-id="canale-5" tvg-name="Canale 5" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/canale-5-it.png" radio="" group-title="mediaset", Canale 5
 http://tvit.leicaflorianrobert.dev/mediaset/canale-5/stream.m3u8
 #EXTINF:6 tvg-id="italia-1" tvg-name="Italia 1" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia1-it.png" radio="" group-title="mediaset", Italia 1
 http://tvit.leicaflorianrobert.dev/mediaset/italia-1/stream.m3u8
@@ -19,27 +19,27 @@ http://tvit.leicaflorianrobert.dev/sky/tv8/stream.m3u8
 http://tvit.leicaflorianrobert.dev/discovery/nove/stream.m3u8
 #EXTINF:20 tvg-id="20" tvg-name="20" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/20-it.png" radio="" group-title="mediaset", Mediaset 20
 http://tvit.leicaflorianrobert.dev/mediaset/20/stream.m3u8
-#EXTINF:21 tvg-id="rai-4" tvg-name="Rai 4" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai4-it.png" radio="" group-title="rai", Rai 4
+#EXTINF:21 tvg-id="rai-4" tvg-name="Rai 4" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-4-it.png" radio="" group-title="rai", Rai 4
 https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8
 #EXTINF:22 tvg-id="iris" tvg-name="Iris" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/iris-it.png" radio="" group-title="mediaset", Iris
 http://tvit.leicaflorianrobert.dev/mediaset/iris/stream.m3u8
-#EXTINF:24 tvg-id="rai-movie" tvg-name="Rai Movie" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/raimovie-it.png" radio="" group-title="rai", Rai Movie
+#EXTINF:24 tvg-id="rai-movie" tvg-name="Rai Movie" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-movie-it.png" radio="" group-title="rai", Rai Movie
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=raiplayappletv
 #EXTINF:26 tvg-id="cielo" tvg-name="Cielo" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cielo-it.png" radio="" group-title="sky", Cielo
 http://tvit.leicaflorianrobert.dev/sky/cielo/stream.m3u8
-#EXTINF:27 tvg-id="twenty-seven" tvg-name="Twenty Seven" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/twentyseven-it.png" radio="" group-title="mediaset", Twenty Seven
+#EXTINF:27 tvg-id="twenty-seven" tvg-name="Twenty Seven" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/twenty-seven-it.png" radio="" group-title="mediaset", Twenty Seven
 http://tvit.leicaflorianrobert.dev/mediaset/twenty-seven/stream.m3u8
 #EXTINF:29 tvg-id="la7d" tvg-name="La7d" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la7d-it.png" radio="" group-title="la7", La7d
 http://tvit.leicaflorianrobert.dev/la7/la7d/stream.m3u8
-#EXTINF:30 tvg-id="la-5" tvg-name="La 5" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la5-it.png" radio="" group-title="mediaset", La 5
+#EXTINF:30 tvg-id="la-5" tvg-name="La 5" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la-5-it.png" radio="" group-title="mediaset", La 5
 http://tvit.leicaflorianrobert.dev/mediaset/la-5/stream.m3u8
-#EXTINF:31 tvg-id="real-time" tvg-name="Real Time" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/realtime-it.png" radio="" group-title="discovery", Real Time
+#EXTINF:31 tvg-id="real-time" tvg-name="Real Time" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/real-time-it.png" radio="" group-title="discovery", Real Time
 http://tvit.leicaflorianrobert.dev/discovery/real-time/stream.m3u8
 #EXTINF:34 tvg-id="cine34" tvg-name="Cine34" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cine34-it.png" radio="" group-title="mediaset", Cine34
 http://tvit.leicaflorianrobert.dev/mediaset/cine34/stream.m3u8
 #EXTINF:35 tvg-id="focus" tvg-name="Focus" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/focus-it.png" radio="" group-title="mediaset", Focus
 http://tvit.leicaflorianrobert.dev/mediaset/focus/stream.m3u8
-#EXTINF:39 tvg-id="top-crime" tvg-name="Top Crime" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/topcrime-it.png" radio="" group-title="mediaset", Top Crime
+#EXTINF:39 tvg-id="top-crime" tvg-name="Top Crime" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/top-crime-it.png" radio="" group-title="mediaset", Top Crime
 http://tvit.leicaflorianrobert.dev/mediaset/top-crime/stream.m3u8
 #EXTINF:40 tvg-id="boing" tvg-name="Boing" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/boing-it.png" radio="" group-title="mediaset", Boing
 http://tvit.leicaflorianrobert.dev/mediaset/boing/stream.m3u8
@@ -62,11 +62,11 @@ http://tvit.leicaflorianrobert.dev/mediaset/italia-2/stream.m3u8
 http://tvit.leicaflorianrobert.dev/mediaset/tgcom24/stream.m3u8
 #EXTINF:52 tvg-id="dmax" tvg-name="DMAX" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/dmax-es.png" radio="" group-title="discovery", DMAX
 http://tvit.leicaflorianrobert.dev/discovery/dmax/stream.m3u8
-#EXTINF:-1 channel-id="motor trend" tvg-id="Motortrend" tvg-chno="4656" tvg-name="Motortrend" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/motor-trend-us.png" group-title="Samsung Channels", Motortrend
+#EXTINF:-1 channel-id="motor trend" tvg-id="motortrend" tvg-chno="4656" tvg-name="Motortrend" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/motor-trend-us.png" group-title="Samsung Channels", Motortrend
 https://jmp2.uk/sam-ITBD4400009JI.m3u8
-#EXTINF:55 tvg-id="mediaset-extra" tvg-name="Mediaset Extra" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/mediasetextra-it.png" radio="" group-title="mediaset", Mediaset Extra
+#EXTINF:55 tvg-id="mediaset-extra" tvg-name="Mediaset Extra" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/mediaset-extra-it.png" radio="" group-title="mediaset", Mediaset Extra
 http://tvit.leicaflorianrobert.dev/mediaset/mediaset-extra/stream.m3u8
-#EXTINF:66 tvg-id="radio-105" tvg-name="Radio 105" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/radio105-it.png" radio="" group-title="mediaset", Radio 105
+#EXTINF:66 tvg-id="radio-105" tvg-name="Radio 105" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/radio-105-it.png" radio="" group-title="mediaset", Radio 105
 http://tvit.leicaflorianrobert.dev/mediaset/radio-105/stream.m3u8
 #EXTINF:67 tvg-id="r101" tvg-name="R101" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/r101-it.png" radio="" group-title="mediaset", Radio 101
 http://tvit.leicaflorianrobert.dev/mediaset/r101/stream.m3u8
@@ -76,111 +76,111 @@ http://tvit.leicaflorianrobert.dev/protv/protv/stream.m3u8
 http://tvit.leicaflorianrobert.dev/antena/antena3/stream.m3u8
 #EXTINF:100 tvg-id="antena1" tvg-name="antena1" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/antena1-it.png" radio="" group-title="antena", Antena 1
 http://tvit.leicaflorianrobert.dev/antena/antena1/stream.m3u8
-#EXTINF:101 tvg-id="comedy-play" tvg-name="comedy-play" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/comedyplay-it.png" radio="" group-title="antena", Comedy Play
+#EXTINF:101 tvg-id="comedy-play" tvg-name="comedy-play" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/comedy-play-it.png" radio="" group-title="antena", Comedy Play
 http://tvit.leicaflorianrobert.dev/antena/comedy-play/stream.m3u8
-#EXTINF:102 tvg-id="antena-monden" tvg-name="antena-monden" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/antenamonden-it.png" radio="" group-title="antena", Antena Monden
+#EXTINF:102 tvg-id="antena-monden" tvg-name="antena-monden" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/antena-monden-it.png" radio="" group-title="antena", Antena Monden
 http://tvit.leicaflorianrobert.dev/antena/antena-monden/stream.m3u8
-#EXTINF:105 tvg-id="reality-pluto-tv" tvg-name="Reality – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/realityplutotv-it.png" radio="" group-title="plutotv", Reality – Pluto TV
+#EXTINF:105 tvg-id="reality-pluto-tv" tvg-name="Reality – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/reality-pluto-tv-it.png" radio="" group-title="plutotv", Reality – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/reality-pluto-tv/stream.m3u8
-#EXTINF:106 tvg-id="super-brothers-and-sisters-pluto-tv" tvg-name="Super! Brothers and Sisters – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/superbrothersandsistersplutotv-it.png" radio="" group-title="plutotv", Super! Brothers and Sisters – Pluto TV
+#EXTINF:106 tvg-id="super-brothers-and-sisters-pluto-tv" tvg-name="Super! Brothers and Sisters – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-brothers-and-sisters-pluto-tv-it.png" radio="" group-title="plutotv", Super! Brothers and Sisters – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/super-brothers-and-sisters-pluto-tv/stream.m3u8
-#EXTINF:107 tvg-id="film-pluto-tv" tvg-name="Film – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/filmplutotv-it.png" radio="" group-title="plutotv", Film – Pluto TV
+#EXTINF:107 tvg-id="film-pluto-tv" tvg-name="Film – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/film-pluto-tv-it.png" radio="" group-title="plutotv", Film – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/film-pluto-tv/stream.m3u8
-#EXTINF:108 tvg-id="sci-fi-pluto-tv" tvg-name="Sci-Fi – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/scifiplutotv-it.png" radio="" group-title="plutotv", Sci-Fi – Pluto TV
+#EXTINF:108 tvg-id="sci-fi-pluto-tv" tvg-name="Sci-Fi – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sci-fi-pluto-tv-it.png" radio="" group-title="plutotv", Sci-Fi – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/sci-fi-pluto-tv/stream.m3u8
-#EXTINF:110 tvg-id="film-azione-pluto-tv" tvg-name="Film Azione – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/filmazioneplutotv-it.png" radio="" group-title="plutotv", Film Azione – Pluto TV
+#EXTINF:110 tvg-id="film-azione-pluto-tv" tvg-name="Film Azione – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/film-azione-pluto-tv-it.png" radio="" group-title="plutotv", Film Azione – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/film-azione-pluto-tv/stream.m3u8
-#EXTINF:115 tvg-id="film-romantici-pluto-tv" tvg-name="Film Romantici – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/filmromanticiplutotv-it.png" radio="" group-title="plutotv", Film Romantici – Pluto TV
+#EXTINF:115 tvg-id="film-romantici-pluto-tv" tvg-name="Film Romantici – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/film-romantici-pluto-tv-it.png" radio="" group-title="plutotv", Film Romantici – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/film-romantici-pluto-tv/stream.m3u8
-#EXTINF:120 tvg-id="film-thriller-pluto-tv" tvg-name="Film Thriller – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/filmthrillerplutotv-it.png" radio="" group-title="plutotv", Film Thriller – Pluto TV
+#EXTINF:120 tvg-id="film-thriller-pluto-tv" tvg-name="Film Thriller – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/film-thriller-pluto-tv-it.png" radio="" group-title="plutotv", Film Thriller – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/film-thriller-pluto-tv/stream.m3u8
-#EXTINF:125 tvg-id="film-classici-pluto-tv" tvg-name="Film Classici – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/filmclassiciplutotv-it.png" radio="" group-title="plutotv", Film Classici – Pluto TV
+#EXTINF:125 tvg-id="film-classici-pluto-tv" tvg-name="Film Classici – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/film-classici-pluto-tv-it.png" radio="" group-title="plutotv", Film Classici – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/film-classici-pluto-tv/stream.m3u8
 #EXTINF:130 tvg-id="cinema-italiano-pluto-tv" tvg-name="Cinema Italiano  – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cinemaitalianoplutotv-it.png" radio="" group-title="plutotv", Cinema Italiano  – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/cinema-italiano-pluto-tv/stream.m3u8
-#EXTINF:135 tvg-id="film-commedia-pluto-tv" tvg-name="Film Commedia – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/filmcommediaplutotv-it.png" radio="" group-title="plutotv", Film Commedia – Pluto TV
+#EXTINF:135 tvg-id="film-commedia-pluto-tv" tvg-name="Film Commedia – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/film-commedia-pluto-tv-it.png" radio="" group-title="plutotv", Film Commedia – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/film-commedia-pluto-tv/stream.m3u8
-#EXTINF:140 tvg-id="film-drama-pluto-tv" tvg-name="Film Drama – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/filmdramaplutotv-it.png" radio="" group-title="plutotv", Film Drama – Pluto TV
+#EXTINF:140 tvg-id="film-drama-pluto-tv" tvg-name="Film Drama – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/film-drama-pluto-tv-it.png" radio="" group-title="plutotv", Film Drama – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/film-drama-pluto-tv/stream.m3u8
-#EXTINF:200 tvg-id="crime-pluto-tv" tvg-name="Crime – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/crimeplutotv-it.png" radio="" group-title="plutotv", Crime – Pluto TV
+#EXTINF:200 tvg-id="crime-pluto-tv" tvg-name="Crime – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/crime-pluto-tv-it.png" radio="" group-title="plutotv", Crime – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/crime-pluto-tv/stream.m3u8
-#EXTINF:300 tvg-id="serie-pluto-tv" tvg-name="Serie – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/serieplutotv-it.png" radio="" group-title="plutotv", Serie – Pluto TV
+#EXTINF:300 tvg-id="serie-pluto-tv" tvg-name="Serie – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/serie-pluto-tv-it.png" radio="" group-title="plutotv", Serie – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/serie-pluto-tv/stream.m3u8
-#EXTINF:305 tvg-id="serie-teen-pluto-tv" tvg-name="Serie Teen – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/serieteenplutotv-it.png" radio="" group-title="plutotv", Serie Teen – Pluto TV
+#EXTINF:305 tvg-id="serie-teen-pluto-tv" tvg-name="Serie Teen – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/serie-teen-pluto-tv-it.png" radio="" group-title="plutotv", Serie Teen – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/serie-teen-pluto-tv/stream.m3u8
-#EXTINF:310 tvg-id="consulenze-illegali-pluto-tv" tvg-name="Consulenze illegali – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/consulenzeillegaliplutotv-it.png" radio="" group-title="plutotv", Consulenze illegali – Pluto TV
+#EXTINF:310 tvg-id="consulenze-illegali-pluto-tv" tvg-name="Consulenze illegali – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/consulenze-illegali-pluto-tv-it.png" radio="" group-title="plutotv", Consulenze illegali – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/consulenze-illegali-pluto-tv/stream.m3u8
-#EXTINF:315 tvg-id="le-sorelle-mcleod-pluto-tv" tvg-name="Le sorelle mcleod – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/lesorellemcleodplutotv-it.png" radio="" group-title="plutotv", Le sorelle mcleod – Pluto TV
+#EXTINF:315 tvg-id="le-sorelle-mcleod-pluto-tv" tvg-name="Le sorelle mcleod – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/le-sorelle-mcleod-pluto-tv-it.png" radio="" group-title="plutotv", Le sorelle mcleod – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/le-sorelle-mcleod-pluto-tv/stream.m3u8
-#EXTINF:320 tvg-id="mutant-x-pluto-tv" tvg-name="Mutant X – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/mutantxplutotv-it.png" radio="" group-title="plutotv", Mutant X – Pluto TV
+#EXTINF:320 tvg-id="mutant-x-pluto-tv" tvg-name="Mutant X – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/mutant-x-pluto-tv-it.png" radio="" group-title="plutotv", Mutant X – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/mutant-x-pluto-tv/stream.m3u8
-#EXTINF:325 tvg-id="andromeda-pluto-tv" tvg-name="Andromeda – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/andromedaplutotv-it.png" radio="" group-title="plutotv", Andromeda – Pluto TV
+#EXTINF:325 tvg-id="andromeda-pluto-tv" tvg-name="Andromeda – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/andromeda-pluto-tv-it.png" radio="" group-title="plutotv", Andromeda – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/andromeda-pluto-tv/stream.m3u8
-#EXTINF:400 tvg-id="scherzi-e-risate-pluto-tv" tvg-name="Scherzi e risate – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/scherzierisateplutotv-it.png" radio="" group-title="plutotv", Scherzi e risate – Pluto TV
+#EXTINF:400 tvg-id="scherzi-e-risate-pluto-tv" tvg-name="Scherzi e risate – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/scherzi-e-risate-pluto-tv-it.png" radio="" group-title="plutotv", Scherzi e risate – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/scherzi-e-risate-pluto-tv/stream.m3u8
-#EXTINF:405 tvg-id="fail-army-pluto-tv" tvg-name="Fail army – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/failarmyplutotv-it.png" radio="" group-title="plutotv", Fail army – Pluto TV
+#EXTINF:405 tvg-id="fail-army-pluto-tv" tvg-name="Fail army – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/fail-army-pluto-tv-it.png" radio="" group-title="plutotv", Fail army – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/fail-army-pluto-tv/stream.m3u8
-#EXTINF:410 tvg-id="the-pet-collective-pluto-tv" tvg-name="The pet collective – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/thepetcollectiveplutotv-it.png" radio="" group-title="plutotv", The pet collective – Pluto TV
+#EXTINF:410 tvg-id="the-pet-collective-pluto-tv" tvg-name="The pet collective – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/the-pet-collective-pluto-tv-it.png" radio="" group-title="plutotv", The pet collective – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/the-pet-collective-pluto-tv/stream.m3u8
-#EXTINF:415 tvg-id="just-for-laughs-pluto-tv" tvg-name="Just for laughs – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/justforlaughsplutotv-it.png" radio="" group-title="plutotv", Just for laughs – Pluto TV
+#EXTINF:415 tvg-id="just-for-laughs-pluto-tv" tvg-name="Just for laughs – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/just-for-laughs-pluto-tv-it.png" radio="" group-title="plutotv", Just for laughs – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/just-for-laughs-pluto-tv/stream.m3u8
-#EXTINF:500 tvg-id="ex-on-the-beach-pluto-tv" tvg-name="Ex on the beach – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/exonthebeachplutotv-it.png" radio="" group-title="plutotv", Ex on the beach – Pluto TV
+#EXTINF:500 tvg-id="ex-on-the-beach-pluto-tv" tvg-name="Ex on the beach – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/ex-on-the-beach-pluto-tv-it.png" radio="" group-title="plutotv", Ex on the beach – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/ex-on-the-beach-pluto-tv/stream.m3u8
-#EXTINF:505 tvg-id="catfish-pluto-tv" tvg-name="Catfish – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/catfishplutotv-it.png" radio="" group-title="plutotv", Catfish – Pluto TV
+#EXTINF:505 tvg-id="catfish-pluto-tv" tvg-name="Catfish – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/catfish-pluto-tv-it.png" radio="" group-title="plutotv", Catfish – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/catfish-pluto-tv/stream.m3u8
-#EXTINF:510 tvg-id="anime-pluto-tv" tvg-name="Anime – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/animeplutotv-it.png" radio="" group-title="plutotv", Anime – Pluto TV
+#EXTINF:510 tvg-id="anime-pluto-tv" tvg-name="Anime – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/anime-pluto-tv-it.png" radio="" group-title="plutotv", Anime – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/anime-pluto-tv/stream.m3u8
-#EXTINF:515 tvg-id="il-banco-dei-pugni-pluto-tv" tvg-name="Il banco dei pugni – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/ilbancodeipugniplutotv-it.png" radio="" group-title="plutotv", Il banco dei pugni – Pluto TV
+#EXTINF:515 tvg-id="il-banco-dei-pugni-pluto-tv" tvg-name="Il banco dei pugni – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/il-banco-dei-pugni-pluto-tv-it.png" radio="" group-title="plutotv", Il banco dei pugni – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/il-banco-dei-pugni-pluto-tv/stream.m3u8
-#EXTINF:520 tvg-id="16-anni-e-incinta-pluto-tv" tvg-name="16 anni e incinta – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/16annieincintaplutotv-it.png" radio="" group-title="plutotv", 16 anni e incinta – Pluto TV
+#EXTINF:520 tvg-id="16-anni-e-incinta-pluto-tv" tvg-name="16 anni e incinta – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/16-anni-e-incinta-pluto-tv-it.png" radio="" group-title="plutotv", 16 anni e incinta – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/16-anni-e-incinta-pluto-tv/stream.m3u8
-#EXTINF:525 tvg-id="dating-pluto-tv" tvg-name="Dating – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/datingplutotv-it.png" radio="" group-title="plutotv", Dating – Pluto TV
+#EXTINF:525 tvg-id="dating-pluto-tv" tvg-name="Dating – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/dating-pluto-tv-it.png" radio="" group-title="plutotv", Dating – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/dating-pluto-tv/stream.m3u8
-#EXTINF:530 tvg-id="family-pluto-tv" tvg-name="Family – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/familyplutotv-it.png" radio="" group-title="plutotv", Family – Pluto TV
+#EXTINF:530 tvg-id="family-pluto-tv" tvg-name="Family – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/family-pluto-tv-it.png" radio="" group-title="plutotv", Family – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/family-pluto-tv/stream.m3u8
-#EXTINF:535 tvg-id="people-are-awesome-pluto-tv" tvg-name="People are awesome – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/peopleareawesomeplutotv-it.png" radio="" group-title="plutotv", People are awesome – Pluto TV
+#EXTINF:535 tvg-id="people-are-awesome-pluto-tv" tvg-name="People are awesome – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/people-are-awesome-pluto-tv-it.png" radio="" group-title="plutotv", People are awesome – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/people-are-awesome-pluto-tv/stream.m3u8
-#EXTINF:540 tvg-id="celebration-pluto-tv" tvg-name="Celebration – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/celebrationplutotv-it.png" radio="" group-title="plutotv", Celebration – Pluto TV
+#EXTINF:540 tvg-id="celebration-pluto-tv" tvg-name="Celebration – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/celebration-pluto-tv-it.png" radio="" group-title="plutotv", Celebration – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/celebration-pluto-tv/stream.m3u8
-#EXTINF:600 tvg-id="cucina-pluto-tv" tvg-name="Cucina – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cucinaplutotv-it.png" radio="" group-title="plutotv", Cucina – Pluto TV
+#EXTINF:600 tvg-id="cucina-pluto-tv" tvg-name="Cucina – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cucina-pluto-tv-it.png" radio="" group-title="plutotv", Cucina – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/cucina-pluto-tv/stream.m3u8
-#EXTINF:605 tvg-id="real-life-pluto-tv" tvg-name="Real life – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/reallifeplutotv-it.png" radio="" group-title="plutotv", Real life – Pluto TV
+#EXTINF:605 tvg-id="real-life-pluto-tv" tvg-name="Real life – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/real-life-pluto-tv-it.png" radio="" group-title="plutotv", Real life – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/real-life-pluto-tv/stream.m3u8
-#EXTINF:610 tvg-id="young-and-fabulous-pluto-tv" tvg-name="Young and fabulous – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/youngandfabulousplutotv-it.png" radio="" group-title="plutotv", Young and fabulous – Pluto TV
+#EXTINF:610 tvg-id="young-and-fabulous-pluto-tv" tvg-name="Young and fabulous – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/young-and-fabulous-pluto-tv-it.png" radio="" group-title="plutotv", Young and fabulous – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/young-and-fabulous-pluto-tv/stream.m3u8
-#EXTINF:615 tvg-id="fashion-pluto-tv" tvg-name="Fashion – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/fashionplutotv-it.png" radio="" group-title="plutotv", Fashion – Pluto TV
+#EXTINF:615 tvg-id="fashion-pluto-tv" tvg-name="Fashion – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/fashion-pluto-tv-it.png" radio="" group-title="plutotv", Fashion – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/fashion-pluto-tv/stream.m3u8
-#EXTINF:650 tvg-id="clubbing-tv-pluto-tv" tvg-name="Clubbing TV – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/clubbingtvplutotv-it.png" radio="" group-title="plutotv", Clubbing TV – Pluto TV
+#EXTINF:650 tvg-id="clubbing-tv-pluto-tv" tvg-name="Clubbing TV – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/clubbing-tv-pluto-tv-it.png" radio="" group-title="plutotv", Clubbing TV – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/clubbing-tv-pluto-tv/stream.m3u8
-#EXTINF:655 tvg-id="loupe-pluto-tv" tvg-name="Loupe – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/loupeplutotv-it.png" radio="" group-title="plutotv", Loupe – Pluto TV
+#EXTINF:655 tvg-id="loupe-pluto-tv" tvg-name="Loupe – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/loupe-pluto-tv-it.png" radio="" group-title="plutotv", Loupe – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/loupe-pluto-tv/stream.m3u8
-#EXTINF:660 tvg-id="qwest-jazzbeyond-pluto-tv" tvg-name="Qwest Jazz&Beyond – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/qwestjazzbeyondplutotv-it.png" radio="" group-title="plutotv", Qwest Jazz&Beyond – Pluto TV
+#EXTINF:660 tvg-id="qwest-jazzbeyond-pluto-tv" tvg-name="Qwest Jazz&Beyond – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/qwest-jazzbeyond-pluto-tv-it.png" radio="" group-title="plutotv", Qwest Jazz&Beyond – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/qwest-jazzbeyond-pluto-tv/stream.m3u8
-#EXTINF:700 tvg-id="sport-pluto-tv" tvg-name="Sport – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sportplutotv-it.png" radio="" group-title="plutotv", Sport – Pluto TV
+#EXTINF:700 tvg-id="sport-pluto-tv" tvg-name="Sport – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sport-pluto-tv-it.png" radio="" group-title="plutotv", Sport – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/sport-pluto-tv/stream.m3u8
-#EXTINF:705 tvg-id="ign-pluto-tv" tvg-name="IGN – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/ignplutotv-it.png" radio="" group-title="plutotv", IGN – Pluto TV
+#EXTINF:705 tvg-id="ign-pluto-tv" tvg-name="IGN – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/ign-pluto-tv-it.png" radio="" group-title="plutotv", IGN – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/ign-pluto-tv/stream.m3u8
-#EXTINF:710 tvg-id="world-poker-tour-pluto-tv" tvg-name="World poker tour – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/worldpokertourplutotv-it.png" radio="" group-title="plutotv", World poker tour – Pluto TV
+#EXTINF:710 tvg-id="world-poker-tour-pluto-tv" tvg-name="World poker tour – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/world-poker-tour-pluto-tv-it.png" radio="" group-title="plutotv", World poker tour – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/world-poker-tour-pluto-tv/stream.m3u8
-#EXTINF:715 tvg-id="maradona-sin-cortes-pluto-tv" tvg-name="Maradona, sin cortes – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/maradonasincortesplutotv-it.png" radio="" group-title="plutotv", Maradona, sin cortes – Pluto TV
+#EXTINF:715 tvg-id="maradona-sin-cortes-pluto-tv" tvg-name="Maradona, sin cortes – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/maradona-sin-cortes-pluto-tv-it.png" radio="" group-title="plutotv", Maradona, sin cortes – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/maradona-sin-cortes-pluto-tv/stream.m3u8
-#EXTINF:720 tvg-id="fuel-tv-pluto-tv" tvg-name="FUEL TV – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/fueltvplutotv-it.png" radio="" group-title="plutotv", FUEL TV – Pluto TV
+#EXTINF:720 tvg-id="fuel-tv-pluto-tv" tvg-name="FUEL TV – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/fuel-tv-pluto-tv-it.png" radio="" group-title="plutotv", FUEL TV – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/fuel-tv-pluto-tv/stream.m3u8
-#EXTINF:800 tvg-id="super-spongebob-pluto-tv" tvg-name="Super! Spongebob – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/superspongebobplutotv-it.png" radio="" group-title="plutotv", Super! Spongebob – Pluto TV
+#EXTINF:800 tvg-id="super-spongebob-pluto-tv" tvg-name="Super! Spongebob – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-spongebob-pluto-tv-it.png" radio="" group-title="plutotv", Super! Spongebob – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/super-spongebob-pluto-tv/stream.m3u8
-#EXTINF:805 tvg-id="super-eroi-pluto-tv" tvg-name="Super! Eroi – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/supereroiplutotv-it.png" radio="" group-title="plutotv", Super! Eroi – Pluto TV
+#EXTINF:805 tvg-id="super-eroi-pluto-tv" tvg-name="Super! Eroi – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-eroi-pluto-tv-it.png" radio="" group-title="plutotv", Super! Eroi – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/super-eroi-pluto-tv/stream.m3u8
-#EXTINF:810 tvg-id="super-icarly-pluto-tv" tvg-name="Super! Icarly – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/supericarlyplutotv-it.png" radio="" group-title="plutotv", Super! Icarly – Pluto TV
+#EXTINF:810 tvg-id="super-icarly-pluto-tv" tvg-name="Super! Icarly – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-icarly-pluto-tv-it.png" radio="" group-title="plutotv", Super! Icarly – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/super-icarly-pluto-tv/stream.m3u8
-#EXTINF:815 tvg-id="super-pop-pluto-tv" tvg-name="Super! POP – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/superpopplutotv-it.png" radio="" group-title="plutotv", Super! POP – Pluto TV
+#EXTINF:815 tvg-id="super-pop-pluto-tv" tvg-name="Super! POP – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-pop-pluto-tv-it.png" radio="" group-title="plutotv", Super! POP – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/super-pop-pluto-tv/stream.m3u8
-#EXTINF:820 tvg-id="super-star-pluto-tv" tvg-name="Super! Star – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/superstarplutotv-it.png" radio="" group-title="plutotv", Super! Star – Pluto TV
+#EXTINF:820 tvg-id="super-star-pluto-tv" tvg-name="Super! Star – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-star-pluto-tv-it.png" radio="" group-title="plutotv", Super! Star – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/super-star-pluto-tv/stream.m3u8
-#EXTINF:900 tvg-id="documentari-pluto-tv" tvg-name="Documentari – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/documentariplutotv-it.png" radio="" group-title="plutotv", Documentari – Pluto TV
+#EXTINF:900 tvg-id="documentari-pluto-tv" tvg-name="Documentari – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/documentari-pluto-tv-it.png" radio="" group-title="plutotv", Documentari – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/documentari-pluto-tv/stream.m3u8
-#EXTINF:905 tvg-id="natura-pluto-tv" tvg-name="Natura – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/naturaplutotv-it.png" radio="" group-title="plutotv", Natura – Pluto TV
+#EXTINF:905 tvg-id="natura-pluto-tv" tvg-name="Natura – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/natura-pluto-tv-it.png" radio="" group-title="plutotv", Natura – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/natura-pluto-tv/stream.m3u8
-#EXTINF:910 tvg-id="naturescape-pluto-tv" tvg-name="Naturescape – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/naturescapeplutotv-it.png" radio="" group-title="plutotv", Naturescape – Pluto TV
+#EXTINF:910 tvg-id="naturescape-pluto-tv" tvg-name="Naturescape – Pluto TV" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/naturescape-pluto-tv-it.png" radio="" group-title="plutotv", Naturescape – Pluto TV
 http://tvit.leicaflorianrobert.dev/plutotv/naturescape-pluto-tv/stream.m3u8
 #EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-radio-2-5jrwma08rz0s.jpg" group-title="Canali RAI",Rai Radio 2
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=5674080&output=7
