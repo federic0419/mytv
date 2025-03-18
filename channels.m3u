@@ -62,7 +62,7 @@ http://tvit.leicaflorianrobert.dev/mediaset/italia-2/stream.m3u8
 http://tvit.leicaflorianrobert.dev/mediaset/tgcom24/stream.m3u8
 #EXTINF:52 tvg-id="dmax" tvg-name="DMAX" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/dmax-es.png" radio="" group-title="discovery", DMAX
 http://tvit.leicaflorianrobert.dev/discovery/dmax/stream.m3u8
-#EXTINF:-1 channel-id="ITBD4400009JI" tvg-id="ITBD4400009JI" tvg-chno="4656" tvg-name="Motortrend" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/itbd4400009ji-it.png" group-title="Samsung Channels", Motortrend
+#EXTINF:-1 channel-id="motor trend" tvg-id="Motortrend" tvg-chno="4656" tvg-name="Motortrend" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/motor-trend-us.png" group-title="Samsung Channels", Motortrend
 https://jmp2.uk/sam-ITBD4400009JI.m3u8
 #EXTINF:55 tvg-id="mediaset-extra" tvg-name="Mediaset Extra" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/mediasetextra-it.png" radio="" group-title="mediaset", Mediaset Extra
 http://tvit.leicaflorianrobert.dev/mediaset/mediaset-extra/stream.m3u8
