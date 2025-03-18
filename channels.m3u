@@ -5,9 +5,9 @@ http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forc
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7&forceUserAgent=raiplayappletv
 #EXTINF:3 tvg-id="rai-3" tvg-name="Rai 3" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-3-it.png" radio="" group-title="rai", Rai 3
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709&output=7&forceUserAgent=raiplayappletv
-#EXTINF:4 tvg-id="rete-4" tvg-name="Rete 4" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rete-4-it.png" radio="" group-title="mediaset", Rete 4
+#EXTINF:4 tvg-id="rete-4" tvg-name="Rete 4" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rete4-it.png" radio="" group-title="mediaset", Rete 4
 http://tvit.leicaflorianrobert.dev/mediaset/rete-4/stream.m3u8
-#EXTINF:5 tvg-id="canale-5" tvg-name="Canale 5" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/canale-5-it.png" radio="" group-title="mediaset", Canale 5
+#EXTINF:5 tvg-id="canale-5" tvg-name="Canale 5" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/canale5-it.png" radio="" group-title="mediaset", Canale 5
 http://tvit.leicaflorianrobert.dev/mediaset/canale-5/stream.m3u8
 #EXTINF:6 tvg-id="italia-1" tvg-name="Italia 1" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia1-it.png" radio="" group-title="mediaset", Italia 1
 http://tvit.leicaflorianrobert.dev/mediaset/italia-1/stream.m3u8
@@ -31,7 +31,7 @@ http://tvit.leicaflorianrobert.dev/sky/cielo/stream.m3u8
 http://tvit.leicaflorianrobert.dev/mediaset/twenty-seven/stream.m3u8
 #EXTINF:29 tvg-id="la7d" tvg-name="La7d" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la7d-it.png" radio="" group-title="la7", La7d
 http://tvit.leicaflorianrobert.dev/la7/la7d/stream.m3u8
-#EXTINF:30 tvg-id="la-5" tvg-name="La 5" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la-5-it.png" radio="" group-title="mediaset", La 5
+#EXTINF:30 tvg-id="la-5" tvg-name="La 5" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la5-it.png" radio="" group-title="mediaset", La 5
 http://tvit.leicaflorianrobert.dev/mediaset/la-5/stream.m3u8
 #EXTINF:31 tvg-id="real-time" tvg-name="Real Time" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/real-time-it.png" radio="" group-title="discovery", Real Time
 http://tvit.leicaflorianrobert.dev/discovery/real-time/stream.m3u8
