@@ -200,5 +200,5 @@ https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sihd/playlist.m3u8
 https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/supertennis.png" group-title="Canali Sport Italiani",SuperTennis
 https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/rtmp/hls/h24_supertennix/manifest.m3u8
-#EXTINF:-1 channel-id="612375086abc84000738fc03" tvg-id="612375086abc84000738fc03" tvg-chno="725" tvg-name="Inazuma Eleven" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/612375086abc84000738fc03-it.png" group-title="PlutoTV", Inazuma Eleven
+#EXTINF:-1 channel-id="612375086abc84000738fc03" tvg-id="612375086abc84000738fc03" tvg-chno="725" tvg-name="Inazuma Eleven" tvg-logo="https://images.pluto.tv/channels/612375086abc84000738fc03/colorLogoPNG-1668928583258.png" group-title="PlutoTV", Inazuma Eleven
 https://jmp2.uk/plu-612375086abc84000738fc03.m3u8
