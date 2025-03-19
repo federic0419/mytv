@@ -62,7 +62,7 @@ https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=super&group=Bambini
 http://tvit.leicaflorianrobert.dev/mediaset/italia-2/stream.m3u8
 #EXTINF:51 tvg-id="tgcom24" tvg-name="Tgcom24" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/tgcom24-it.png" radio="" group-title="", Tgcom 24
 http://tvit.leicaflorianrobert.dev/mediaset/tgcom24/stream.m3u8
-#EXTINF:52 tvg-id="dmax" tvg-name="DMAX" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/dmax-es.png" radio="" group-title="", DMAX
+#EXTINF:52 tvg-id="dmax" tvg-name="DMAX" tvg-shift="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a0/Dmaxhd.png" radio="" group-title="", DMAX
 http://tvit.leicaflorianrobert.dev/discovery/dmax/stream.m3u8
 #EXTINF:-1 channel-id="motor trend" tvg-id="motortrend" tvg-chno="4656" tvg-name="Motortrend" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/motor-trend-us.png" group-title="", Motortrend
 https://jmp2.uk/sam-ITBD4400009JI.m3u8
