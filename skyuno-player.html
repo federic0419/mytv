@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sky Uno Player</title>
+  <script src="https://cdn.jsdelivr.net/npm/shaka-player@4.3.5/dist/shaka-player.compiled.min.js"></script>
+  <style>
+    html, body { margin: 0; padding: 0; background: black; height: 100%; }
+    #video { width: 100%; height: 100%; background-color: black; }
+  </style>
+</head>
+<body>
+  <video id="video" autoplay controls></video>
+
+  <script>
+    async function initPlayer() {
+      const manifestUri = "https://linear313-it-dash1-prd.selector.skycdn.it/016a/32477/FHD/skyuno/master_stereo.mpd";
+
+      // ClearKey info
+      const clearKeyConfig = {
+        drm: {
+          clearKeys: {
+            "003610b8556000936e48061cdb4ee11a": "2cd6bcc2160aa6ec048e5a5f7a0f73c8"
+          },
+          servers: {
+            "org.w3.clearkey": ""
+          }
+        }
+      };
+
+      const video = document.getElementById('video');
+      const player = new shaka.Player(video);
+
+      player.configure(clearKeyConfig);
+
+      try {
+        await player.load(manifestUri);
+        console.log("✅ Video caricato!");
+      }  catch (e) {
+			console.error("❌ Errore nel caricamento:", e);
+			alert("Errore: " + e.name + "\nMessaggio: " + e.message);
+		}
+
+    }
+
+    shaka.polyfill.installAll();
+    if (shaka.Player.isBrowserSupported()) {
+      initPlayer();
+    } else {
+      console.error("❌ Browser non supportato da Shaka Player");
+    }
+  </script>
+</body>
+</html>
