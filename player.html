@@ -80,7 +80,7 @@
 
     async function fetchMPDandKeys(htmlPageUrl) {
       try {
-        const response = await fetch("http://127.0.0.1:5000/get-mpd", {
+        const response = await fetch("https://request-465f.onrender.com/get-mpd", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ url: htmlPageUrl })
