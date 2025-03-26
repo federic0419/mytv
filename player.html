@@ -75,10 +75,8 @@
     <video id="video" autoplay controls></video>
   </div>
 
-    <script>
+  <script>
     let player = null;
-    let currentMPD = null;
-    let currentKeys = null;
 
     async function fetchMPDandKeys(htmlPageUrl) {
       try {
@@ -105,7 +103,7 @@
     async function initPlayer() {
       const htmlPageUrl = document.getElementById("urlSelect").value;
       if (!htmlPageUrl) {
-        if (player) await player.destroy();
+        await player.destroy();
         return;
       }
 
@@ -115,8 +113,6 @@
       }
 
       const { mpd, clearkeys } = await fetchMPDandKeys(htmlPageUrl);
-      currentMPD = mpd;
-      currentKeys = clearkeys;
 
       const video = document.getElementById("video");
       const container = document.getElementById("player-container");
@@ -145,64 +141,11 @@
       }
     }
 
-    async function convertToM3U() {
-      if (!currentMPD || !currentKeys) {
-        alert("⚠️ Nessun video caricato!");
-        return;
-      }
-
-      try {
-        const response = await fetch("https://request-465f.onrender.com/convert", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            url: currentMPD,
-            clearkeys: currentKeys
-          })
-        });
-
-        const data = await response.json();
-        console.log("🔄 Convert response:", data);
-
-        if (data.error) throw new Error(data.error);
-
-        const link = "https://request-465f.onrender.com" + data.playlist_url;
-        document.getElementById("m3u-link").textContent = link;
-        document.getElementById("m3u-link").href = link;
-        document.getElementById("m3u-container").style.display = "block";
-
-        // Prepara download automatico del file .m3u
-        const m3uContent = `#EXTM3U\n#EXTINF:-1,Video Convertito\n${link}`;
-        const blob = new Blob([m3uContent], { type: "audio/x-mpegurl" });
-        const blobUrl = URL.createObjectURL(blob);
-        const downloadLink = document.getElementById("m3u-download");
-        downloadLink.href = blobUrl;
-        downloadLink.download = "stream.m3u";
-
-      } catch (err) {
-        alert("❌ Errore durante la conversione: " + err.message);
-      }
-    }
-
-    // Init Shaka
+    // Init
     shaka.polyfill.installAll();
     if (!shaka.Player.isBrowserSupported()) {
       alert("❌ Browser non supportato da Shaka Player.");
     }
   </script>
-
-  <!-- 🔘 PULSANTE CONVERTI + RISULTATO -->
-  <div style="text-align:center; margin-top: 20px;">
-    <button onclick="convertToM3U()">📥 Genera .M3U per IPTV</button>
-  </div>
-
-  <div id="m3u-container" style="display:none; text-align: center; margin-top: 20px;">
-    <p>✅ Link generato:</p>
-    <a id="m3u-link" href="#" target="_blank" style="color: lightgreen; font-weight: bold;"></a>
-    <br><br>
-    <a id="m3u-download" href="#" download="stream.m3u">
-      ⬇️ Scarica .m3u
-    </a>
-  </div>
 </body>
 </html>
