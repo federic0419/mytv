@@ -95,7 +95,7 @@
       <option value="https://hattrick.ws/live11.htm">Video 12⚽</option>
     </select>
     <button onclick="initPlayer()">Carica Video</button>
-    <button onclick="castProxy.cast()">📺 Cast</button>
+    <button id="castBtn" onclick="castProxy?.cast()">📺 Cast</button>
   </div>
 
   <div id="player-container">
@@ -146,10 +146,20 @@
       const container = document.getElementById("player-container");
       container.style.display = "block";
 
-      // Crea Overlay UI e CastProxy
-      const ui = new shaka.ui.Overlay(new shaka.Player(video), container, video);
-      castProxy = new shaka.cast.CastProxy(video, ui.getControls());
-      player = castProxy.getPlayer();
+      let castAvailable = (window.chrome && chrome.cast && chrome.cast.isAvailable);
+
+      if (castAvailable) {
+        castProxy = new shaka.cast.CastProxy(video, null);
+        player = castProxy.getPlayer();
+        console.log("📡 Chromecast attivo.");
+      } else {
+        castProxy = null;
+        player = new shaka.Player(video);
+        console.log("🎥 Player normale.");
+      }
+
+      const ui = new shaka.ui.Overlay(player, container, video);
+      ui.getControls();
 
       player.configure({
         drm: {
@@ -176,7 +186,17 @@
     if (!shaka.Player.isBrowserSupported()) {
       alert("❌ Browser non supportato da Shaka Player.");
     }
-  </script>
 
+    // Nasconde il pulsante Cast se non disponibile
+    window.addEventListener('load', () => {
+      const castBtn = document.getElementById('castBtn');
+      setTimeout(() => {
+        if (!(window.chrome && chrome.cast && chrome.cast.isAvailable)) {
+          castBtn.style.display = "none";
+          console.log("ℹ️ Nessun Chromecast rilevato, pulsante nascosto.");
+        }
+      }, 1000); // delay per permettere a cast di inizializzarsi
+    });
+  </script>
 </body>
 </html>
