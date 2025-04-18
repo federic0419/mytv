@@ -3,72 +3,23 @@
 <head>
   <meta charset="utf-8">
   <title>Player</title>
-  <!-- Shaka Player -->
   <script src="https://cdn.jsdelivr.net/npm/shaka-player@4.3.5/dist/shaka-player.compiled.min.js"></script>
-
   <style>
-    html, body {
-      margin: 0;
-      padding: 20px;
-      background: black;
-      font-family: sans-serif;
-      color: white;
-    }
-
-    #controls {
-      margin-bottom: 20px;
-    }
-
-    #urlSelect, button {
-      font-size: 16px;
-      padding: 8px;
-      margin-right: 10px;
-    }
-
-    #player-container {
-      width: 960px;
-      max-width: 100%;
-      margin: auto;
-      background-color: #000;
-      border-radius: 12px;
-      position: relative;
-      display: none;
-      padding: 4px;
-      z-index: 1;
-    }
-
-    #player-container::before {
-      content: '';
-      position: absolute;
-      top: -8px;
-      left: -8px;
-      right: -8px;
-      bottom: -8px;
-      border-radius: 20px;
-      background: linear-gradient(45deg, #00ffff, #ff00ff, #ffff00, #00ff44, #00ffff);
-      background-size: 500% 500%;
-      animation: glowFlow 30s ease-in-out infinite;
-      filter: blur(20px);
-      opacity: 0.6;
-      z-index: -1;
-      pointer-events: none;
-    }
-
+    html, body { margin: 0; padding: 20px; background: black; font-family: sans-serif; color: white; }
+    #controls { margin-bottom: 20px; }
+    #urlSelect, button { font-size: 16px; padding: 8px; margin-right: 10px; }
+    #player-container { width: 960px; max-width: 100%; margin: auto; background-color: #000; border-radius: 12px;
+      position: relative; display: none; padding: 4px; z-index: 1; }
+    #player-container::before { content: ''; position: absolute; top: -8px; left: -8px; right: -8px; bottom: -8px;
+      border-radius: 20px; background: linear-gradient(45deg, #00ffff, #ff00ff, #ffff00, #00ff44, #00ffff);
+      background-size: 500% 500%; animation: glowFlow 30s ease-in-out infinite; filter: blur(20px); opacity: 0.6;
+      z-index: -1; pointer-events: none; }
     @keyframes glowFlow {
       0% { background-position: 0% 50%; }
       50% { background-position: 100% 50%; }
       100% { background-position: 0% 50%; }
     }
-
-    #video {
-      width: 100%;
-      height: 540px;
-      border-radius: 8px;
-      display: block;
-      background-color: black;
-      z-index: 2;
-      position: relative;
-    }
+    #video { width: 100%; height: 540px; border-radius: 8px; display: block; background-color: black; z-index: 2; position: relative; }
   </style>
 </head>
 <body>
@@ -91,14 +42,11 @@
     </select>
     <button onclick="initPlayer()">Carica Video</button>
   </div>
-
   <div id="player-container">
     <video id="video" autoplay controls></video>
   </div>
-
   <script>
     let player = null;
-
     async function fetchMPDandKeys(htmlPageUrl) {
       try {
         const response = await fetch("https://request-465f.onrender.com/get-mpd", {
@@ -113,10 +61,12 @@
         }
 
         const data = await response.json();
+        console.log("📦 Risposta JSON:", data);
+        console.log("👉 Raw fetch response:", response);
         if (!data.mpd_url) throw new Error("Nessun campo 'mpd_url' nella risposta");
         return { mpd: data.mpd_url, clearkeys: data.clearkeys };
       } catch (e) {
-        alert("❌ Errore ottenendo dati dal server:\n" + e.message);
+        alert("❌ Errore ottenendo dati dal server:\\n" + e.message);
         throw e;
       }
     }
@@ -127,17 +77,15 @@
         if (player) await player.destroy();
         return;
       }
-
       if (player) {
         await player.destroy();
         console.log("🧹 Player precedente distrutto.");
       }
-
       const { mpd, clearkeys } = await fetchMPDandKeys(htmlPageUrl);
       const video = document.getElementById("video");
       const container = document.getElementById("player-container");
       container.style.display = "block";
-
+      player = new shaka.Player(video);
       player.configure({
         drm: {
           clearKeys: clearkeys,
@@ -145,12 +93,10 @@
         },
         streaming: { lowLatencyMode: true }
       });
-
       try {
         await player.load(mpd);
         console.log("✅ Stream caricato da:", mpd);
-
-        // Fullscreen + rotazione
+		// Fullscreen + rotazione
         if (video.requestFullscreen) {
           await video.requestFullscreen();
           if (screen.orientation && screen.orientation.lock) {
@@ -159,9 +105,10 @@
             });
           }
         }
-
       } catch (e) {
         console.error("❌ Errore nel caricamento:", e);
+        console.error("Dettagli errore:", e.code, e.data, e.message, e.stack);
+ 
         alert("Errore: " + e.message);
       }
     }
