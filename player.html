@@ -105,6 +105,8 @@
       <option value="https://hattrick.ws/live11.htm">Video 12⚽</option>
     </select>
     <button onclick="initPlayer()">Carica Video</button>
+    
+    <button onclick="castProxy.cast()">📺 Cast</button>
   </div>
 
   <div id="player-container">
@@ -153,7 +155,9 @@
       const video = document.getElementById("video");
       const container = document.getElementById("player-container");
       container.style.display = "block";
-
+      // Cast support
+      castProxy = new shaka.cast.CastProxy(video, null);
+      player = castProxy.getPlayer();
       player = new shaka.Player(video);
 
       player.configure({
