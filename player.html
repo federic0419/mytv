@@ -3,10 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Player</title>
-  <!-- Shaka Player -->
   <script src="https://cdn.jsdelivr.net/npm/shaka-player@4.3.5/dist/shaka-player.compiled.min.js"></script>
-  <!-- Google Cast -->
-  <script src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
   <style>
     html, body {
       margin: 0;
@@ -14,6 +11,21 @@
       background: black;
       font-family: sans-serif;
       color: white;
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #222;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #aaa;
     }
 
     #controls {
@@ -26,6 +38,7 @@
       margin-right: 10px;
     }
 
+    /* ✅ Player container con glow animato */
     #player-container {
       width: 960px;
       max-width: 100%;
@@ -73,6 +86,7 @@
   </style>
 </head>
 <body>
+
   <div id="controls">
     <label for="urlSelect">🎬 Seleziona un video:</label>
     <select id="urlSelect">
@@ -91,7 +105,6 @@
       <option value="https://hattrick.ws/live11.htm">Video 12⚽</option>
     </select>
     <button onclick="initPlayer()">Carica Video</button>
-    <button onclick="castProxy.cast()">📺 Cast</button>
   </div>
 
   <div id="player-container">
@@ -100,7 +113,6 @@
 
   <script>
     let player = null;
-    let castProxy = null;
 
     async function fetchMPDandKeys(htmlPageUrl) {
       try {
@@ -110,16 +122,16 @@
           body: JSON.stringify({ url: htmlPageUrl })
         });
 
-        if (!response.ok) {
-          const text = await response.text();
-          throw new Error(`Errore HTTP ${response.status}: ${text}`);
-        }
-
         const data = await response.json();
+        console.log("📦 Risposta JSON:", data);
+
+        if (data.error) throw new Error(data.error);
         if (!data.mpd_url) throw new Error("Nessun campo 'mpd_url' nella risposta");
+
         return { mpd: data.mpd_url, clearkeys: data.clearkeys };
+
       } catch (e) {
-        alert("❌ Errore ottenendo dati dal server:\n" + e.message);
+        alert("❌ Errore ottenendo dati dal server Python:\n" + e.message);
         throw e;
       }
     }
@@ -137,36 +149,28 @@
       }
 
       const { mpd, clearkeys } = await fetchMPDandKeys(htmlPageUrl);
+
       const video = document.getElementById("video");
       const container = document.getElementById("player-container");
       container.style.display = "block";
 
-      // Cast support
-      castProxy = new shaka.cast.CastProxy(video, null);
-      player = castProxy.getPlayer();
+      player = new shaka.Player(video);
 
       player.configure({
         drm: {
           clearKeys: clearkeys,
-          servers: { "org.w3.clearkey": "" }
+          servers: {
+            "org.w3.clearkey": ""
+          }
         },
-        streaming: { lowLatencyMode: true }
+        streaming: {
+          lowLatencyMode: true
+        }
       });
 
       try {
         await player.load(mpd);
         console.log("✅ Stream caricato da:", mpd);
-
-        // Fullscreen + rotazione
-        if (video.requestFullscreen) {
-          await video.requestFullscreen();
-          if (screen.orientation && screen.orientation.lock) {
-            screen.orientation.lock("landscape").catch(err => {
-              console.warn("⚠️ Rotazione non forzabile:", err);
-            });
-          }
-        }
-
       } catch (e) {
         console.error("❌ Errore nel caricamento:", e);
         alert("Errore: " + e.message);
@@ -177,8 +181,6 @@
     if (!shaka.Player.isBrowserSupported()) {
       alert("❌ Browser non supportato da Shaka Player.");
     }
-    console.log("Supporto DRM:", shaka.Player.probeSupport().drm);
-    console.log("Supporto Media:", shaka.Player.probeSupport().media);
   </script>
 </body>
 </html>
