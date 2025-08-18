@@ -16,6 +16,6 @@ Benvenuto nella repository del progetto IPTV! Questo progetto consente agli uten
 
 ## 🛠️ Installazione
 
-1. Clona la repository:
+Incolla questo URL nella barra del link .m3u8:
    ```bash
-   git clone https://github.com/tuo-utente/nome-repository.git
+   (https://raw.githubusercontent.com/federic0419/mytv/main/channels.m3u )
