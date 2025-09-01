@@ -12,7 +12,7 @@ http://tvit.leicaflorianrobert.dev/mediaset/canale-5/stream.m3u8
 #EXTINF:6 tvg-id="italia-1" tvg-name="Italia 1" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia1-it.png" radio="" group-title="all", Italia 1
 http://tvit.leicaflorianrobert.dev/mediaset/italia-1/stream.m3u8
 #EXTINF:7 tvg-id="la7" tvg-name="La7" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la7-it.png" radio="" group-title="all", La7
-http://tvit.leicaflorianrobert.dev/la7/la7/stream.m3u8
+https://d3749synfikwkv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-74ylxpgd78bpb/Live.m3u8
 #EXTINF:8 tvg-id="tv8" tvg-name="TV8" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/tv8-it.png" radio="" group-title="all", TV8
 http://tvit.leicaflorianrobert.dev/sky/tv8/stream.m3u8
 #EXTINF:9 tvg-id="nove" tvg-name="Nove" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nove-it.png" radio="" group-title="all", Nove
@@ -30,11 +30,11 @@ http://tvit.leicaflorianrobert.dev/sky/cielo/stream.m3u8
 #EXTINF:27 tvg-id="twenty-seven" tvg-name="Twenty Seven" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/twenty-seven-it.png" radio="" group-title="all", Twenty Seven
 http://tvit.leicaflorianrobert.dev/mediaset/twenty-seven/stream.m3u8
 #EXTINF:29 tvg-id="la7d" tvg-name="La7d" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la7d-it.png" radio="" group-title="all", La7d
-http://tvit.leicaflorianrobert.dev/la7/la7d/stream.m3u8
+https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
 #EXTINF:30 tvg-id="la-5" tvg-name="La 5" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la5-it.png" radio="" group-title="all", La 5
 http://tvit.leicaflorianrobert.dev/mediaset/la-5/stream.m3u8
 #EXTINF:31 tvg-id="real-time" tvg-name="Real Time" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/real-time-it.png" radio="" group-title="all", Real Time
-http://tvit.leicaflorianrobert.dev/discovery/real-time/stream.m3u8
+https://jmp2.uk/stvp-IT900007I0
 #EXTINF:33 tvg-id="foodnetwork" tvg-name="foodnetwork" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/food-network-us.png" radio="" group-title="all", Food Network
 https://amg16146-wbdi-amg16146c3-samsung-it-1836.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-foodnetwork-samsungit/playlist.m3u8
 #EXTINF:34 tvg-id="cine34" tvg-name="Cine34" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cine34-it.png" radio="" group-title="all", Cine34
@@ -57,13 +57,13 @@ http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&force
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv
 #EXTINF:-1 tvg-id="Super" tvg-chno="47" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-it.png" group-title="all",Super!
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=super&group=Bambini
+https://jmp2.uk/plu-6093f6f8351eb0000754afb8.m3u8
 #EXTINF:49 tvg-id="italia-2" tvg-name="Italia 2" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia2-it.png" radio="" group-title="all", Italia 2
 http://tvit.leicaflorianrobert.dev/mediaset/italia-2/stream.m3u8
 #EXTINF:51 tvg-id="tgcom24" tvg-name="Tgcom24" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/tgcom24-it.png" radio="" group-title="all", Tgcom 24
 http://tvit.leicaflorianrobert.dev/mediaset/tgcom24/stream.m3u8
 #EXTINF:52 tvg-id="dmax" tvg-name="DMAX" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/dmax-es.png" radio="" group-title="all", DMAX
-http://tvit.leicaflorianrobert.dev/discovery/dmax/stream.m3u8
+https://jmp2.uk/stvp-IT9000113W
 #EXTINF:-1 channel-id="motor trend" tvg-id="motortrend" tvg-chno="4656" tvg-name="Motortrend" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/motor-trend-us.png" group-title="all", Motortrend
 https://jmp2.uk/sam-ITBD4400009JI.m3u8
 #EXTINF:55 tvg-id="mediaset-extra" tvg-name="Mediaset Extra" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/mediaset-extra-it.png" radio="" group-title="all", Mediaset Extra
