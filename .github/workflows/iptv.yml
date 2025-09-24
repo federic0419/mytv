@@ -1,0 +1,24 @@
+name: IPTV Check
+
+on:
+  schedule:
+    - cron: "0 8,20 * * *" # ogni giorno alle 8:00 e 20:00 UTC
+  workflow_dispatch: # per lanciarlo anche a mano
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y msmtp curl coreutils
+
+      - name: Run script
+        run: bash ./check_m3u.sh
+        env:
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
