@@ -2,18 +2,15 @@
 set -e
 
 # === CONFIGURAZIONE LISTA IPTV ===
-M3U_URL="https://raw.githubusercontent.com/federic0419/mytv/main/channels.m3u"   # <<-- link fisso della tua lista
-OUTDIR="/app/out"
+M3U_URL="https://raw.githubusercontent.com/federic0419/mytv/main/channels.m3u"   # lista fissa
+OUTDIR="."
 TIMEOUT=10
 
 # === CONFIGURAZIONE EMAIL ===
 MAIL_TO="fede20022004@gmail.com"          # destinatario
 MAIL_FROM="rinaldi.f.work@gmail.com"      # mittente (account Gmail usato)
 MAIL_SUBJECT="Report IPTV M3U"
-
-# SMTP tramite msmtp
-SMTP_ACCOUNT="gmail"
-
+SMTP_ACCOUNT="gmail"                      # account configurato in msmtprc
 
 # === PREPARAZIONE ===
 mkdir -p "$OUTDIR"
@@ -21,7 +18,7 @@ M3U_PATH="$OUTDIR/lista.m3u"
 REPORT="$OUTDIR/report.csv"
 GOODM3U="$OUTDIR/working.m3u"
 
-# scarica la lista fissa
+# scarica la lista
 curl -s -L "$M3U_URL" -o "$M3U_PATH"
 
 echo "CheckedAt,ChannelName,Url,Reachable,StatusCode,Method" > "$REPORT"
@@ -41,12 +38,12 @@ while IFS= read -r line; do
         current_extinf=""
 
         # Test HEAD
-        code=$(curl -I -m $TIMEOUT -A "Mozilla/5.0" -s -o /dev/null -w "%{http_code}" "$url")
+        code=$(curl -I -m $TIMEOUT -A "Mozilla/5.0" -s -o /dev/null -w "%{http_code}" "$url" || true)
         if [[ "$code" =~ ^2|3 ]]; then
             ok="True"; method="HEAD"
         else
             # Fallback GET range
-            code=$(curl --range 0-0 -m $TIMEOUT -A "Mozilla/5.0" -s -o /dev/null -w "%{http_code}" "$url")
+            code=$(curl --range 0-0 -m $TIMEOUT -A "Mozilla/5.0" -s -o /dev/null -w "%{http_code}" "$url" || true)
             if [[ "$code" =~ ^2|3 ]]; then
                 ok="True"; method="GET(range)"
             else
@@ -69,31 +66,31 @@ while IFS= read -r line; do
     fi
 done < "$M3U_PATH"
 
-# === INVIA EMAIL CON REPORT VIA SMTP (msmtp) ===
+# === PREPARA LISTA FALLIMENTI ===
+FAILED="$OUTDIR/failed.txt"
+grep 'False' "$REPORT" > "$FAILED" || true
+
+# === INVIA EMAIL (solo testo, no allegati) ===
 if command -v msmtp >/dev/null 2>&1; then
-    BOUNDARY="=====MULTIPART_BOUNDARY====="
     {
         echo "From: $MAIL_FROM"
         echo "To: $MAIL_TO"
         echo "Subject: $MAIL_SUBJECT"
-        echo "MIME-Version: 1.0"
-        echo "Content-Type: multipart/mixed; boundary=\"$BOUNDARY\""
-        echo
-        echo "--$BOUNDARY"
         echo "Content-Type: text/plain; charset=UTF-8"
         echo
-        echo "Controllo completato."
-        echo "In allegato trovi il report CSV con l’esito del check."
-        echo
-        echo "--$BOUNDARY"
-        echo "Content-Type: text/csv; name=\"report.csv\""
-        echo "Content-Disposition: attachment; filename=\"report.csv\""
-        echo "Content-Transfer-Encoding: base64"
-        echo
-        base64 "$REPORT"
-        echo "--$BOUNDARY--"
+        if [[ -s "$FAILED" ]]; then
+            echo "❌ Canali NON raggiungibili:"
+            echo
+            awk -F',' '{print "- " $2 " -> " $3}' "$FAILED"
+        else
+            echo "✅ Tutti i canali risultano OK"
+        fi
     } | msmtp -a "$SMTP_ACCOUNT" "$MAIL_TO"
 else
-    echo "msmtp non disponibile, stampo report nel log:"
-    cat "$REPORT"
+    echo "msmtp non disponibile, stampo fallimenti nel log:"
+    if [[ -s "$FAILED" ]]; then
+        awk -F',' '{print "- " $2 " -> " $3}' "$FAILED"
+    else
+        echo "✅ Tutti i canali risultano OK"
+    fi
 fi
