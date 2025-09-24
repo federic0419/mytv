@@ -85,7 +85,8 @@ if command -v msmtp >/dev/null 2>&1; then
         else
             echo "✅ Tutti i canali risultano OK"
         fi
-    } | msmtp -a "$SMTP_ACCOUNT" "$MAIL_TO"
+    } | msmtp "$MAIL_TO"
+
 else
     echo "msmtp non disponibile, stampo fallimenti nel log:"
     if [[ -s "$FAILED" ]]; then
