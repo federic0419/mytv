@@ -2,8 +2,8 @@ name: IPTV Check
 
 on:
   schedule:
-    - cron: "0 8,20 * * *" # ogni giorno alle 8:00 e 20:00 UTC
-  workflow_dispatch: # per lanciarlo anche a mano
+    - cron: "0 8,20 * * *"
+  workflow_dispatch:
 
 jobs:
   check:
@@ -18,7 +18,22 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y msmtp curl coreutils
 
-      - name: Run script
+      - name: Configure msmtp
+        run: |
+          echo "defaults" > ~/.msmtprc
+          echo "auth on" >> ~/.msmtprc
+          echo "tls on" >> ~/.msmtprc
+          echo "tls_trust_file /etc/ssl/certs/ca-certificates.crt" >> ~/.msmtprc
+          echo "account gmail" >> ~/.msmtprc
+          echo "host smtp.gmail.com" >> ~/.msmtprc
+          echo "port 587" >> ~/.msmtprc
+          echo "user rinaldi.f.work@gmail.com" >> ~/.msmtprc
+          echo "from rinaldi.f.work@gmail.com" >> ~/.msmtprc
+          echo "password $SMTP_PASS" >> ~/.msmtprc
+          echo "account default : gmail" >> ~/.msmtprc
+          chmod 600 ~/.msmtprc
+
+      - name: Run IPTV script
         run: bash ./check_m3u.sh
         env:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
