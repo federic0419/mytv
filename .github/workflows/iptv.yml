@@ -1,17 +1,26 @@
 name: IPTV Check
 
 on:
-  workflow_dispatch:   # lo lanci a mano per test
+  workflow_dispatch: # lo lanci a mano per test
   schedule:
-    - cron: "0 8,20 * * *"   # opzionale: ogni giorno alle 08:00 e alle 20:00
+    - cron: "0 8,20 * * *" # opzionale: ogni giorno alle 08:00 e alle 20:00
 
 jobs:
   check:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout main branch
         uses: actions/checkout@v3
+        with:
+          ref: main
+          path: main
+
+      - name: Checkout branch with script
+        uses: actions/checkout@v3
+        with:
+          ref: check-link # <-- metti il nome esatto del branch dove sta check_m3u.sh
+          path: check-link
 
       - name: Install msmtp
         run: |
@@ -46,9 +55,17 @@ jobs:
         env:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
 
-      - name: Send test email
+      - name: Run IPTV check script
         run: |
-          echo -e "Subject: Test da GitHub Actions\n\nSe ricevi questa mail, msmtp funziona 🎉" \
-            | msmtp -a gmail rinaldi.f.work@gmail.com
+          chmod +x ./check-link/check_m3u.sh
+          ./check-link/check_m3u.sh > iptv_report.log 2>&1 || true
+
+      - name: Send report via email
+        run: |
+          {
+            echo "Subject: Report IPTV da GitHub Actions"
+            echo
+            cat iptv_report.log
+          } | msmtp -a gmail rinaldi.f.work@gmail.com
         env:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
