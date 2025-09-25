@@ -49,7 +49,7 @@ jobs:
           echo "port 587" >> ~/.msmtprc
           echo "user rinaldi.f.work@gmail.com" >> ~/.msmtprc
           echo "from rinaldi.f.work@gmail.com" >> ~/.msmtprc
-          echo "passwordeval echo \$SMTP_PASS" >> ~/.msmtprc
+          echo "password $SMTP_PASS" >> ~/.msmtprc
           echo "account default : gmail" >> ~/.msmtprc
           chmod 600 ~/.msmtprc
         env:
@@ -66,6 +66,6 @@ jobs:
             echo "Subject: Report IPTV da GitHub Actions"
             echo
             cat iptv_report.log
-          } | msmtp -a gmail rinaldi.f.work@gmail.com
+          } | msmtp -a gmail fede20022004@gmail.com
         env:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
