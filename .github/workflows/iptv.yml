@@ -1,9 +1,9 @@
 name: IPTV Check
 
 on:
+  workflow_dispatch:   # lo lanci a mano per test
   schedule:
-    - cron: "0 8,20 * * *"   # ogni giorno alle 08:00 e alle 20:00
-  workflow_dispatch:
+    - cron: "0 8,20 * * *"   # opzionale: ogni giorno alle 08:00 e alle 20:00
 
 jobs:
   check:
@@ -12,13 +12,22 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0   # accesso a tutti i branch, utile se lo script sta altrove
 
-      - name: Install dependencies
+      - name: Install msmtp
         run: |
           sudo apt-get update
-          sudo apt-get install -y msmtp curl coreutils
+          sudo apt-get install -y msmtp msmtp-mta
+
+      - name: Debug secret length
+        run: |
+          if [ -z "$SMTP_PASS" ]; then
+            echo "❌ Secret SMTP_PASS non impostata o vuota!"
+            exit 1
+          else
+            echo "✅ Secret SMTP_PASS ha ${#SMTP_PASS} caratteri"
+          fi
+        env:
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
 
       - name: Configure msmtp
         run: |
@@ -37,13 +46,9 @@ jobs:
         env:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
 
-      - name: Run IPTV script if exists
+      - name: Send test email
         run: |
-          if [ -f ./check_m3u.sh ]; then
-            echo "▶️ Eseguo check_m3u.sh"
-            bash ./check_m3u.sh
-          else
-            echo "⚠️ check_m3u.sh non trovato in questo branch, salto lo step."
-          fi
+          echo -e "Subject: Test da GitHub Actions\n\nSe ricevi questa mail, msmtp funziona 🎉" \
+            | msmtp -a gmail rinaldi.f.work@gmail.com
         env:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
