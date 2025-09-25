@@ -2,8 +2,8 @@ name: IPTV Check
 
 on:
   schedule:
-    - cron: "0 8,20 * * *" # ogni giorno alle 8:00 e 20:00 UTC
-  workflow_dispatch: # per lanciarlo anche a mano
+    - cron: "0 8,20 * * *"   # ogni giorno alle 08:00 e alle 20:00
+  workflow_dispatch:
 
 jobs:
   check:
@@ -12,13 +12,36 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0   # così hai accesso completo a tutti i branch
 
       - name: Install dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y msmtp curl coreutils
 
-      - name: Run script
-        run: bash ./check_m3u.sh
+      - name: Configure msmtp
+        run: |
+          echo "defaults" > ~/.msmtprc
+          echo "auth on" >> ~/.msmtprc
+          echo "tls on" >> ~/.msmtprc
+          echo "tls_trust_file /etc/ssl/certs/ca-certificates.crt" >> ~/.msmtprc
+          echo "account gmail" >> ~/.msmtprc
+          echo "host smtp.gmail.com" >> ~/.msmtprc
+          echo "port 587" >> ~/.msmtprc
+          echo "user rinaldi.f.work@gmail.com" >> ~/.msmtprc
+          echo "from rinaldi.f.work@gmail.com" >> ~/.msmtprc
+          echo "password $SMTP_PASS" >> ~/.msmtprc
+          echo "account default : gmail" >> ~/.msmtprc
+          chmod 600 ~/.msmtprc
+
+      - name: Run IPTV script if exists
+        run: |
+          if [ -f ./check_m3u.sh ]; then
+            echo "▶️ Eseguo check_m3u.sh"
+            bash ./check_m3u.sh
+          else
+            echo "⚠️ check_m3u.sh non trovato in questo branch, salto lo step."
+          fi
         env:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
