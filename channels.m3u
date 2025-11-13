@@ -51,10 +51,10 @@ https://jmp2.uk/stvp-IT900009KL
 https://live02-seg.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/index.m3u8
 #EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-gulp-db8wx0eccr3u.png" group-title="all",Rai Gulp
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://list.iptvcat.com/my_list/s/fdb7fe76b432549d6325de0584da62f9.m3u8
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=raiplayappletv
 #EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-yoyo-hi2h5j83aalt.png" group-title="all",Rai Yoyo
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://list.iptvcat.com/my_list/s/c9a6339d22be796e4956ddc8824a2e11.m3u8
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv
 #EXTINF:-1 channel-id="IT900005HF" tvg-id="IT900005HF" tvg-chno="4798" tvg-name="Frisbee" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT900005HF_20250408T021443SQUARE.png" group-title="all", Frisbee
 https://jmp2.uk/stvp-IT900005HF
 #EXTINF:-1 tvg-id="Super" tvg-chno="47" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-it.png" group-title="all",Super!
