@@ -1,10 +1,10 @@
 #EXTM3U
 #EXTINF:1 tvg-id="rai-1" tvg-name="Rai 1" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-1-it.png" radio="" group-title="all", Rai 1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
 #EXTINF:2 tvg-id="rai-2" tvg-name="Rai 2" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-2-it.png" radio="" group-title="all", Rai 2
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7&forceUserAgent=raiplayappletv
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7&forceUserAgent=raiplayappletv
 #EXTINF:3 tvg-id="rai-3" tvg-name="Rai 3" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-3-it.png" radio="" group-title="all", Rai 3
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709&output=7&forceUserAgent=raiplayappletv
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709&output=7&forceUserAgent=raiplayappletv
 #EXTINF:4 tvg-id="rete-4" tvg-name="Rete 4" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rete4-it.png" radio="" group-title="all", Rete 4
 http://tvit.leicaflorianrobert.dev/mediaset/rete-4/stream.m3u8
 #EXTINF:5 tvg-id="canale-5" tvg-name="Canale 5" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/canale5-it.png" radio="" group-title="all", Canale 5
@@ -12,7 +12,7 @@ http://tvit.leicaflorianrobert.dev/mediaset/canale-5/stream.m3u8
 #EXTINF:6 tvg-id="italia-1" tvg-name="Italia 1" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia1-it.png" radio="" group-title="all", Italia 1
 http://tvit.leicaflorianrobert.dev/mediaset/italia-1/stream.m3u8
 #EXTINF:7 tvg-id="la7" tvg-name="La7" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la7-it.png" radio="" group-title="all", La7
-https://d3749synfikwkv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-74ylxpgd78bpb/Live.m3u8
+https://jmp2.uk/stvp-ITBD1500002NL
 #EXTINF:8 tvg-id="tv8" tvg-name="TV8" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/tv8-it.png" radio="" group-title="all", TV8
 http://tvit.leicaflorianrobert.dev/sky/tv8/stream.m3u8
 #EXTINF:9 tvg-id="nove" tvg-name="Nove" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nove-it.png" radio="" group-title="all", Nove
@@ -24,7 +24,7 @@ https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10
 #EXTINF:22 tvg-id="iris" tvg-name="Iris" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/iris-it.png" radio="" group-title="all", Iris
 http://tvit.leicaflorianrobert.dev/mediaset/iris/stream.m3u8
 #EXTINF:24 tvg-id="rai-movie" tvg-name="Rai Movie" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-movie-it.png" radio="" group-title="all", Rai Movie
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=raiplayappletv
+https://iptvcat.com/my_list/s/b32363e8290a5ad7fe33b906d92f1e08.m3u8
 #EXTINF:26 tvg-id="cielo" tvg-name="Cielo" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cielo-it.png" radio="" group-title="all", Cielo
 http://tvit.leicaflorianrobert.dev/sky/cielo/stream.m3u8
 #EXTINF:27 tvg-id="twenty-seven" tvg-name="Twenty Seven" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/twenty-seven-it.png" radio="" group-title="all", Twenty Seven
@@ -44,17 +44,17 @@ http://tvit.leicaflorianrobert.dev/mediaset/focus/stream.m3u8
 #EXTINF:39 tvg-id="top-crime" tvg-name="Top Crime" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/top-crime-it.png" radio="" group-title="all", Top Crime
 http://tvit.leicaflorianrobert.dev/mediaset/top-crime/stream.m3u8
 #EXTINF:40 tvg-id="boing" tvg-name="Boing" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/boing-it.png" radio="" group-title="all", Boing
-http://tvit.leicaflorianrobert.dev/mediaset/boing/stream.m3u8
+https://live02-seg.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8
 #EXTINF:-1 channel-id="ITBD440000698" tvg-id="K2" tvg-chno="4800" tvg-name="K2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/k2-it.png" group-title="all", K2
 https://jmp2.uk/stvp-IT900009KL
 #EXTINF:46 tvg-id="cartoonito" tvg-name="Cartoonito" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cartoonito-it.png" radio="" group-title="all", Cartoonito
-http://tvit.leicaflorianrobert.dev/mediaset/cartoonito/stream.m3u8
+https://live02-seg.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/index.m3u8
 #EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-gulp-db8wx0eccr3u.png" group-title="all",Rai Gulp
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=raiplayappletv
+https://list.iptvcat.com/my_list/s/fdb7fe76b432549d6325de0584da62f9.m3u8
 #EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-yoyo-hi2h5j83aalt.png" group-title="all",Rai Yoyo
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv
+https://list.iptvcat.com/my_list/s/c9a6339d22be796e4956ddc8824a2e11.m3u8
 #EXTINF:-1 channel-id="IT900005HF" tvg-id="IT900005HF" tvg-chno="4798" tvg-name="Frisbee" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT900005HF_20250408T021443SQUARE.png" group-title="all", Frisbee
 https://jmp2.uk/stvp-IT900005HF
 #EXTINF:-1 tvg-id="Super" tvg-chno="47" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-it.png" group-title="all",Super!
@@ -338,16 +338,16 @@ https://jmp2.uk/plu-63eb82e24e83e70008ab735f.m3u8
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=5674080&output=7
 #EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-scuola-dbrhdmlaxwxg.png" group-title="all",Rai Scuola
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=7&forceUserAgent=raiplayappletv
+https://iptvcat.com/my_list/s/0cab653fb1c4a74d98e51638e866c53b.m3u8
 #EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-storia-uwdoqlac5rgy.png" group-title="all",Rai Storia
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=raiplayappletv
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=raiplayappletv
 #EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-premium-gdf9izugt6ty.png" group-title="all",Rai Premium
-#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=raiplayappletv
 #EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/sportitalia-24-live.jpg" group-title="all",SportItalia 24 LIVE
 https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/silive24.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/sportitalia.png" group-title="all",SportItalia HD Plus
-https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sihd/playlist.m3u8
+https://origin.streamup.eu/sportitaliain/sihd/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/sportitalia-solocalcio.jpg" group-title="all",SportItalia Solocalcio
 https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/supertennis.png" group-title="all",SuperTennis
@@ -356,3 +356,7 @@ https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c
 https://jmp2.uk/plu-612375086abc84000738fc03.m3u8
 #EXTINF:-1 channel-id="ITBD1000002HF" tvg-id="ITBD1000002HF" tvg-chno="4631" tvg-name="FIFA+" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD1000002HF_20250513T010658SQUARE.png" group-title="Samsung Channels", FIFA+
 https://jmp2.uk/stvp-ITBD1000002HF
+#EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/controcalcio.png" group-title="Canali Sport Italiani",ControCalcio 
+https://tivusto.org/sh/controcalcio
+#EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/cronache-di-spogliatoio.JPG" group-title="Canali Sport Italiani",Cronache di spogliatoio
+https://tivusto.org/sh/cronachedispogliatoio
