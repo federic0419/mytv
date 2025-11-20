@@ -33,6 +33,8 @@ http://tvit.leicaflorianrobert.dev/mediaset/twenty-seven/stream.m3u8
 https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
 #EXTINF:30 tvg-id="la-5" tvg-name="La 5" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la5-it.png" radio="" group-title="all", La 5
 http://tvit.leicaflorianrobert.dev/mediaset/la-5/stream.m3u8
+#EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-sport-hd.png" group-title="all",Rai Sport + Hd
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=rainet/4.0.5
 #EXTINF:31 tvg-id="real-time" tvg-name="Real Time" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/real-time-it.png" radio="" group-title="all", Real Time
 https://jmp2.uk/stvp-IT900007I0
 #EXTINF:33 tvg-id="foodnetwork" tvg-name="foodnetwork" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/food-network-us.png" radio="" group-title="all", Food Network
