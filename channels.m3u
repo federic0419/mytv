@@ -36,9 +36,9 @@ http://tvit.leicaflorianrobert.dev/mediaset/la-5/stream.m3u8
 #EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-sport-hd.png" group-title="all",Rai Sport + Hd
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=rainet/4.0.5
 #EXTINF:31 tvg-id="real-time" tvg-name="Real Time" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/real-time-it.png" radio="" group-title="all", Real Time
-https://jmp2.uk/stvp-IT900007I0
+https://d3562mgijzx0zq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kizqtzpvvl3i8/Realtime_IT.m3u8
 #EXTINF:33 tvg-id="foodnetwork" tvg-name="foodnetwork" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/food-network-us.png" radio="" group-title="all", Food Network
-https://jmp2.uk/stvp-IT90001094
+https://dk3okdd5036kz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o4pw0nc02sthz/Foodnetwork_IT.m3u8
 #EXTINF:34 tvg-id="cine34" tvg-name="Cine34" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cine34-it.png" radio="" group-title="all", Cine34
 http://tvit.leicaflorianrobert.dev/mediaset/cine34/stream.m3u8
 #EXTINF:35 tvg-id="focus" tvg-name="Focus" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/focus-it.png" radio="" group-title="all", Focus
@@ -67,7 +67,7 @@ http://tvit.leicaflorianrobert.dev/mediaset/italia-2/stream.m3u8
 #EXTINF:51 tvg-id="tgcom24" tvg-name="Tgcom24" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/tgcom24-it.png" radio="" group-title="all", Tgcom 24
 http://tvit.leicaflorianrobert.dev/mediaset/tgcom24/stream.m3u8
 #EXTINF:52 tvg-id="dmax" tvg-name="DMAX" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/dmax-es.png" radio="" group-title="all", DMAX
-https://jmp2.uk/stvp-IT9000113W
+https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8
 #EXTINF:-1 channel-id="motor trend" tvg-id="motortrend" tvg-chno="4656" tvg-name="Motortrend" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/motor-trend-us.png" group-title="all", Motortrend
 https://jmp2.uk/stvp-IT900004Y5
 #EXTINF:55 tvg-id="mediaset-extra" tvg-name="Mediaset Extra" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/mediaset-extra-it.png" radio="" group-title="all", Mediaset Extra
