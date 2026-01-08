@@ -360,13 +360,13 @@ https://jmp2.uk/plu-612375086abc84000738fc03.m3u8
 https://tivusto.org/sh/controcalcio
 #EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/cronache-di-spogliatoio.JPG" group-title="all",Cronache di spogliatoio
 https://tivusto.org/sh/cronachedispogliatoio
-#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [129] RAI ITALIA LIVE
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/330px-Rai_Italia_-_Logo_2017.svg.png", [129] RAI ITALIA LIVE
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://ilglobotv-live.akamaized.net/channels/RAIItaliaSudAfrica/Live.m3u8
 #EXTINF:-1 group-title="all" tvg-logo="http://davidefulgione.it/loghi/f1.jpg",F1 TV
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/v1/stitch/embed/hls/channel/65c69ee3d77d450008c80438/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=0&appVersion=0&clientModelNumber=1.0.0&country=IT&deviceDNT=false&deviceId=0&deviceLat=45.4640&deviceLon=9.1919&serverSideAds=false&marketingRegion=IT&masterJWTPassthrough=true&includeExtendedEvents=true&embedPartner=samsung-tvplus
-#EXTINF:-1 group-title="all" tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",RADIO BIANCONERA
+#EXTINF:-1 group-title="all" tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/66d65b96-4d44-470b-b9e0-bd8c21f35a78-profile_image-300x300.png",RADIO BIANCONERA
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://jmp2.uk/stvp-ITBD2300001MT
 #EXTINF:-1 group-title="all" tvg-logo="http://davidefulgione.it/loghi/rta.jpg",Radio TV Serie A
