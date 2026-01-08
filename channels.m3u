@@ -36,7 +36,7 @@ http://tvit.leicaflorianrobert.dev/mediaset/la-5/stream.m3u8
 #EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-sport-hd.png" group-title="all",Rai Sport + Hd
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=rainet/4.0.5
 #EXTINF:31 tvg-id="real-time" tvg-name="Real Time" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/real-time-it.png" radio="" group-title="all", Real Time
-https://d3562mgijzx0zq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kizqtzpvvl3i8/Realtime_IT.m3u8
+https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
 #EXTINF:33 tvg-id="foodnetwork" tvg-name="foodnetwork" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/food-network-us.png" radio="" group-title="all", Food Network
 https://dk3okdd5036kz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o4pw0nc02sthz/Foodnetwork_IT.m3u8
 #EXTINF:34 tvg-id="cine34" tvg-name="Cine34" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cine34-it.png" radio="" group-title="all", Cine34
@@ -58,10 +58,10 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forc
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv
 #EXTINF:-1 channel-id="IT900005HF" tvg-id="IT900005HF" tvg-chno="4798" tvg-name="Frisbee" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT900005HF_20250408T021443SQUARE.png" group-title="all", Frisbee
-https://jmp2.uk/stvp-IT900005HF
+https://d6m7lubks416z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zmbstsedxme9s/Frisbee_IT.m3u8
 #EXTINF:-1 tvg-id="Super" tvg-chno="47" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-it.png" group-title="all",Super!
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://jmp2.uk/plu-6093f6f8351eb0000754afb8.m3u8
+https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8
 #EXTINF:49 tvg-id="italia-2" tvg-name="Italia 2" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia2-it.png" radio="" group-title="all", Italia 2
 http://tvit.leicaflorianrobert.dev/mediaset/italia-2/stream.m3u8
 #EXTINF:51 tvg-id="tgcom24" tvg-name="Tgcom24" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/tgcom24-it.png" radio="" group-title="all", Tgcom 24
@@ -135,7 +135,7 @@ https://jmp2.uk/plu-6661739641af6400080cd8f1.m3u8
 #EXTINF:-1 channel-id="608014d19a26320007c92ab6" tvg-id="608014d19a26320007c92ab6" tvg-chno="625" tvg-name="FailArmy" tvg-logo="https://images.pluto.tv/channels/608014d19a26320007c92ab6/colorLogoPNG.png" group-title="PlutoTV", FailArmy
 https://jmp2.uk/plu-608014d19a26320007c92ab6.m3u8
 #EXTINF:-1 channel-id="660bfc4424e1d000085b5f93" tvg-id="660bfc4424e1d000085b5f93" tvg-chno="545" tvg-name="FIFA+" tvg-logo="https://images.pluto.tv/channels/660bfc4424e1d000085b5f93/colorLogoPNG_1750064819565.png" group-title="PlutoTV", FIFA+
-https://jmp2.uk/plu-660bfc4424e1d000085b5f93.m3u8
+https://5d95f7d7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X0ZJRkFQbHVzSXRhbGlhbl9ITFM/playlist.m3u8
 #EXTINF:-1 channel-id="66d7120815d2c60008cec006" tvg-id="66d7120815d2c60008cec006" tvg-chno="143" tvg-name="Flashpoint" tvg-logo="https://images.pluto.tv/channels/66d7120815d2c60008cec006/colorLogoPNG.png" group-title="PlutoTV", Flashpoint
 https://jmp2.uk/plu-66d7120815d2c60008cec006.m3u8
 #EXTINF:-1 channel-id="64ec5cf50f73a800081310a5" tvg-id="64ec5cf50f73a800081310a5" tvg-chno="375" tvg-name="Forensic Files" tvg-logo="https://images.pluto.tv/channels/64ec5cf50f73a800081310a5/colorLogoPNG.png" group-title="PlutoTV", Forensic Files
@@ -347,7 +347,7 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forc
 #EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-premium-gdf9izugt6ty.png" group-title="all",Rai Premium
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=raiplayappletv
 #EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/sportitalia-24-live.jpg" group-title="all",SportItalia 24 LIVE
-https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/silive24.smil/playlist.m3u8
+https://sportsitalia-samsungitaly.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/sportitalia.png" group-title="all",SportItalia HD Plus
 https://origin.streamup.eu/sportitaliain/sihd/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/sportitalia-solocalcio.jpg" group-title="all",SportItalia Solocalcio
@@ -356,9 +356,26 @@ https://di-g7ij0rwh.vo.lswcdn.net/sportitalia/sisolocalcio.smil/playlist.m3u8
 https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 #EXTINF:-1 channel-id="612375086abc84000738fc03" tvg-id="612375086abc84000738fc03" tvg-chno="725" tvg-name="Inazuma Eleven" tvg-logo="https://images.pluto.tv/channels/612375086abc84000738fc03/colorLogoPNG-1668928583258.png" group-title="all", Inazuma Eleven
 https://jmp2.uk/plu-612375086abc84000738fc03.m3u8
-#EXTINF:-1 channel-id="ITBD1000002HF" tvg-id="ITBD1000002HF" tvg-chno="4631" tvg-name="FIFA+" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD1000002HF_20250513T010658SQUARE.png" group-title="Samsung Channels", FIFA+
-https://jmp2.uk/stvp-ITBD1000002HF
-#EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/controcalcio.png" group-title="Canali Sport Italiani",ControCalcio 
+#EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/controcalcio.png" group-title="all",ControCalcio 
 https://tivusto.org/sh/controcalcio
-#EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/cronache-di-spogliatoio.JPG" group-title="Canali Sport Italiani",Cronache di spogliatoio
+#EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/cronache-di-spogliatoio.JPG" group-title="all",Cronache di spogliatoio
 https://tivusto.org/sh/cronachedispogliatoio
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [129] RAI ITALIA LIVE
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://ilglobotv-live.akamaized.net/channels/RAIItaliaSudAfrica/Live.m3u8
+#EXTINF:-1 group-title="all" tvg-logo="http://davidefulgione.it/loghi/f1.jpg",F1 TV
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/v1/stitch/embed/hls/channel/65c69ee3d77d450008c80438/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=0&appVersion=0&clientModelNumber=1.0.0&country=IT&deviceDNT=false&deviceId=0&deviceLat=45.4640&deviceLon=9.1919&serverSideAds=false&marketingRegion=IT&masterJWTPassthrough=true&includeExtendedEvents=true&embedPartner=samsung-tvplus
+#EXTINF:-1 group-title="all" tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",RADIO BIANCONERA
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://jmp2.uk/stvp-ITBD2300001MT
+#EXTINF:-1 group-title="all" tvg-logo="http://davidefulgione.it/loghi/rta.jpg",Radio TV Serie A
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://livesg.seriea.hiway.media/restreamer/seriea_client/gpu-a-c0-8/restreamer/outgest/84d19a87-f82f-4aa2-80cd-2ab1105eac79/manifest.m3u8
+#EXTINF:-1 group-title="all" tvg-logo="http://davidefulgione.it/loghi/redbull.jpg",  REDBULL TV
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://dms.redbull.tv/v5/destination/rallytv/07f960dc-fd36-466c-971f-64a597518b83/personal_computer/http/us/en_US/playlist.m3u8
+#EXTINF:0 tvg-country="all" tvg-logo="" group-title="all",RSI La 1
+https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-dash/rsila1hd.mpd?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="all" tvg-logo="" group-title="all",RSI La 2 
+https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-dash/rsila2hd.mpd?checkedby:iptvcat.com
