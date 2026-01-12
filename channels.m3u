@@ -36,7 +36,7 @@ http://tvit.leicaflorianrobert.dev/mediaset/la-5/stream.m3u8
 #EXTINF:-1 tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-sport-hd.png" group-title="all",Rai Sport + Hd
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=rainet/4.0.5
 #EXTINF:31 tvg-id="real-time" tvg-name="Real Time" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/real-time-it.png" radio="" group-title="all", Real Time
-https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
+https://d3562mgijzx0zq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kizqtzpvvl3i8/Realtime_IT.m3u8
 #EXTINF:33 tvg-id="foodnetwork" tvg-name="foodnetwork" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/food-network-us.png" radio="" group-title="all", Food Network
 https://dk3okdd5036kz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o4pw0nc02sthz/Foodnetwork_IT.m3u8
 #EXTINF:34 tvg-id="cine34" tvg-name="Cine34" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cine34-it.png" radio="" group-title="all", Cine34
