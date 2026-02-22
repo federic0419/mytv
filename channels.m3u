@@ -14,7 +14,7 @@ http://tvit.leicaflorianrobert.dev/mediaset/italia-1/stream.m3u8
 #EXTINF:7 tvg-id="la7" tvg-name="La7" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la7-it.png" radio="" group-title="all", La7
 https://jmp2.uk/stvp-ITBD1500002NL
 #EXTINF:8 tvg-id="tv8" tvg-name="TV8" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/tv8-it.png" radio="" group-title="all", TV8
-http://tvit.leicaflorianrobert.dev/sky/tv8/stream.m3u8
+https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
 #EXTINF:9 tvg-id="nove" tvg-name="Nove" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nove-it.png" radio="" group-title="all", Nove
 https://jmp2.uk/stvp-IT9000060Q
 #EXTINF:20 tvg-id="20" tvg-name="20" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/20-it.png" radio="" group-title="all", Mediaset 20
@@ -60,7 +60,6 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forc
 #EXTINF:-1 channel-id="IT900005HF" tvg-id="IT900005HF" tvg-chno="4798" tvg-name="Frisbee" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT900005HF_20250408T021443SQUARE.png" group-title="all", Frisbee
 https://d6m7lubks416z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zmbstsedxme9s/Frisbee_IT.m3u8
 #EXTINF:-1 tvg-id="Super" tvg-chno="47" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-it.png" group-title="all",Super!
-#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8
 #EXTINF:49 tvg-id="italia-2" tvg-name="Italia 2" tvg-shift="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia2-it.png" radio="" group-title="all", Italia 2
 http://tvit.leicaflorianrobert.dev/mediaset/italia-2/stream.m3u8
