@@ -2,7 +2,7 @@ name: IPTV Check
 
 on:
   schedule:
-    - cron: "0 8,20 * * *"   # ogni giorno alle 08:00 e alle 20:00
+    - cron: "0 20 * * *"   # ogni giorno alle 08:00 e alle 20:00
   workflow_dispatch:
 
 jobs:
